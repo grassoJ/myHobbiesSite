@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Me</title>
 </head>
 <body>
     <header>
@@ -25,7 +25,38 @@
     </header>
 
     <main>
-        <!--will work on this part later -->
+        <article>
+            <form action="#">
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname">
+                <br>
+                <label for="lname">last Name</label>
+                <input type="text" name="lname" id="lname">
+                <br>
+                <label for="country">Country</label>
+                <select>
+                    <option value="Australia">Australia</option>
+                    <option value="Can">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="eng">England</option>
+                </select>
+                <br>
+
+                <label for="how">How did you hear about me?</label>
+                <input type="radio" id="h" name="a"> Website
+                <input type="radio" id="hw" name="a"> Work
+                <input type="radio" id="how" name="a"> School
+                <br>
+
+                <label for="comment">Comments</label>
+                    <br>
+                    <textarea id="comment" name="comment" style="height:200px"></textarea>
+                    <br>
+
+                <input type="submit" value="submit">
+            </form>
+        </article>
+        
     </main>
 <footer>
     Coppyrighted. James Productions 2020
